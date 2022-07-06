@@ -65,4 +65,4 @@ app.delete("/products/:id", (req, res) => {
   res.send(product);
 });
 
-app.listen(3001, () => console.log("listening on port 3000"));
+app.listen(3001, () => console.log("listening on port 3001"));
